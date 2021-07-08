@@ -1,0 +1,28 @@
+.filed{
+    border: 1px solid #000;
+    padding: 0 60px;
+}
+
+.bat{
+    transition: transform .4s ease-in;
+    transform-origin: top right;
+}
+
+.filed:hover .bat{
+    transform: rotate(-75deg);
+}
+
+.ball{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff0a0a;
+    position: relative;
+    left: 520px;
+    top: -40px;
+    transition: transform 1s ease-out .2s;
+}
+
+.filed:hover .ball{
+    transform: translate(1000px, -200px);
+}
